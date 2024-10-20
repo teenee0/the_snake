@@ -94,7 +94,6 @@ class Snake(GameObject):
             self.direction = self.next_direction
             self.next_direction = None
 
-
     def get_head_position(self):
         return self.positions[0]
 
